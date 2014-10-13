@@ -25,4 +25,4 @@ browserify demo.js > demobundle.js # This will build your bundle, which is alrea
 grunt serve # this will start a server on your localhost which will serve index.html
 ```
 
-Now visit http://localhost:9999 and play!
+Now visit [http://localhost:9999](http://localhost:9999) and play!
