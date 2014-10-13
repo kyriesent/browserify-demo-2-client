@@ -1,0 +1,19 @@
+{
+  "name": "browserify-demo-2-client",
+  "version": "0.0.0",
+  "description": "browserify-demo-2-client ========================",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io-client": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:kyriesent/browserify-demo-2-client"
+  },
+  "author": "",
+  "license": "ISC"
+}
