@@ -1,4 +1,4 @@
-var socket = require('socket.io-client')('kyriesent.ngrok.com');
+var socket = require('socket.io-client')('kyriesent.ngrok.com:80');
 socket.on('connect', function(){
   socket.on('event', function(data){});
   socket.on('disconnect', function(){});
