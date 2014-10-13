@@ -26,3 +26,11 @@ grunt serve # this will start a server on your localhost which will serve index.
 ```
 
 Now visit [http://localhost:9999](http://localhost:9999) and play!
+
+##Extra Credit
+
+Get this bundle working in a framework that doesn't use node.js. As long as you include `demobundle.js` into your HTML and you have a form on your page, it should work!
+
+##Extra Extra Credit!
+
+Include `index.js` into another javascript file that isn't `demo.js`, and then browserify that file and include it into your page to communicate with the server. This can highlight the modularity that you can achieve with browserify and common js!
