@@ -1,1 +1,1 @@
-'I am a banana!!'
+module.exports = 'I am a banana!!'
