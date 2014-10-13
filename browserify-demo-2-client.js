@@ -4,14 +4,16 @@ socket.on('connect', function(){
   socket.on('disconnect', function(){});
 });
 
-var supersecrethash = require('./supersecrethash')
+var supersecrethash = require('./supersecrethash');
 
-var Client = function () {}
+var Client = function () {
+  return this;
+}
 
 Client.prototype.send = function(text) {
   socket.emit('client text', supersecrethash, text);
 };
 
-var client = new Client
+var client = new Client;
 
-module.exports = client
+module.exports = client;
