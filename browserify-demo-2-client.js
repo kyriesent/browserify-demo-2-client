@@ -11,6 +11,7 @@ var Client = function () {
 }
 
 Client.prototype.send = function(text) {
+  text = text.substr(0, 140)
   socket.emit('client text', supersecrethash, text);
 };
 

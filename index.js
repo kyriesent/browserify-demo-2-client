@@ -1,1 +1,1 @@
-module.exports = require('./browserify-demo-2-client')
+module.exports = require('./browserify-demo-2-client');

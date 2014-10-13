@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Bosun";
+  src: url('/fonts/bosun03.otf');
+}
+
+body {
+  padding: 10px;
+  font: 14px "Bosun", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
