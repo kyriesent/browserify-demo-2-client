@@ -7,6 +7,10 @@ Instructions:
 
 You'll need to have `node` and `browserify` installed **globally** on your machine to compile the project into a frontend script.
 
+- There's a good tutorial for using `homebrew` to install node on Mac [here](http://thechangelog.com/install-node-js-with-homebrew-on-os-x/).
+- After installing node, you just need to run `npm install -g browserify` in your terminal to get browserify installed globally.
+
+
 If you want to serve the test page, you'll also need `grunt-cli`
 
 Once these are installed, clone this project.
