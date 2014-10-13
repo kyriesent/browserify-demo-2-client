@@ -42,4 +42,5 @@ Hint: The bundle is just javascript, so as long as you include `demobundle.js` i
 Include `index.js` into another javascript file that isn't `demo.js`, and then browserify that file and include it into your page to communicate with the server. This can highlight the modularity that you can achieve with browserify and common js!
 
 [Browserify Documentation](https://github.com/substack/node-browserify)
+
 [Other Good Resources on Browserify](http://browserify.org/articles.html)
